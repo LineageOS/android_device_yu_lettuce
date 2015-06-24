@@ -4,6 +4,10 @@
     "target_path": "kernel/cyanogen/msm8916"
   },
   {
+    "repository": "android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common"
+  },
+  {
     "repository": "android_hardware_qcom_fm",
     "target_path": "hardware/qcom/fm"
   },
