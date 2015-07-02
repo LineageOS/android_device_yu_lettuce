@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ffa3b31_e4652ee3",
+        "filename": "rootdir/etc/init.qcom.usb.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-02T20:50:37Z",
+      "side": 1,
+      "message": "we don\u0027t set this, need to hardcode or set it.",
+      "revId": "bde5a49fc69c669ebb9a5379aeec7e7a4ba1c2f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
