@@ -244,6 +244,10 @@ int LightSensor::readEvents(sensors_event_t* data, int count)
 	int numEventReceived = 0;
 	input_event const* event;
 
+	if (mInputReader.readEvent == NULL) {
+		ALOGE("mInputReader.readEvent == NULL; [Not Ready to Read Events Yet!]\n");
+		return -EINVAL;
+	}
 	while (count && mInputReader.readEvent(&event)) {
 		int type = event->type;
 		if (type == EV_ABS) {
