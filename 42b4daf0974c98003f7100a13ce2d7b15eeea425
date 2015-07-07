@@ -69,6 +69,24 @@
       "revId": "42b4daf0974c98003f7100a13ce2d7b15eeea425",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_40405008",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T19:47:43Z",
+      "side": 1,
+      "message": "Yeah, derp, didn\u0027t realise this was for volume keys.",
+      "parentUuid": "5ff73747_20f784f8",
+      "revId": "42b4daf0974c98003f7100a13ce2d7b15eeea425",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
