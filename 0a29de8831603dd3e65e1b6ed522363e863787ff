@@ -1,0 +1,141 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ff73747_20bae4dd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "the code changes would apply for other sensors relying on events too.",
+      "range": {
+        "startLine": 7,
+        "startChar": 9,
+        "endLine": 7,
+        "endChar": 14
+      },
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_40b5f0ed",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "This could be written better for a commit message, seems like a comment.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 31
+      },
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_a0fef4ab",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "Make this ALOGV perhaps?",
+      "range": {
+        "startLine": 649,
+        "startChar": 2,
+        "endLine": 649,
+        "endChar": 7
+      },
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_802d3848",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "Makes sense, since now it reports two events back to back immediately in the sensor\u0027s enable function.",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_c0efc0e7",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "Why would we want that?",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_60322caa",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 703,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "Same as above, ALOGV",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_a0ecb4f3",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 790,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-07T21:10:40Z",
+      "side": 1,
+      "message": "situations :)\n\nAlso, this comment looks out of place here.",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
