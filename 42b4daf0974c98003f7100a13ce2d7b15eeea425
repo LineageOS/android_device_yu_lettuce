@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_40f29008",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-07T19:37:57Z",
+      "side": 1,
+      "message": "Yeah, this actually is unused.",
+      "parentUuid": "5ff73747_60510c0f",
+      "revId": "42b4daf0974c98003f7100a13ce2d7b15eeea425",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_804c1877",
         "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-07-07T17:04:01Z",
       "side": 1,
       "message": "Remove this too?",
+      "revId": "42b4daf0974c98003f7100a13ce2d7b15eeea425",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_20f784f8",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-07T19:37:57Z",
+      "side": 1,
+      "message": "No, this needs to stay.",
+      "parentUuid": "5ff73747_804c1877",
       "revId": "42b4daf0974c98003f7100a13ce2d7b15eeea425",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
