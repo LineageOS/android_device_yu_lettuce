@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_40e9707e",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-07T23:37:20Z",
+      "side": 1,
+      "message": "Sure. ALOGD seems to be active but more verbose \nseem very appropriate. This happening very often,",
+      "parentUuid": "5ff73747_a0fef4ab",
+      "range": {
+        "startLine": 649,
+        "startChar": 2,
+        "endLine": 649,
+        "endChar": 7
+      },
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_802d3848",
         "filename": "sensors/NativeSensorManager.cpp",
         "patchSetId": 2
@@ -82,6 +106,24 @@
       "writtenOn": "2015-07-07T21:10:40Z",
       "side": 1,
       "message": "Makes sense, since now it reports two events back to back immediately in the sensor\u0027s enable function.",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_20ee6488",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-07T23:37:20Z",
+      "side": 1,
+      "message": "Ok. Are you referring to seeing the back to back events\nin the kernel log.",
+      "parentUuid": "5ff73747_802d3848",
       "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -105,6 +147,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_00036844",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 678,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-07T23:37:20Z",
+      "side": 1,
+      "message": "It looks like the length of the list will be reduce\nand it would be nice to disable the device before \nregistering the listener. After UN-registering the listener\nan event might arrive. Hopefully disabling the device before\nsetting the cts_enable to zero is sufficient.",
+      "parentUuid": "5ff73747_c0efc0e7",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_60322caa",
         "filename": "sensors/NativeSensorManager.cpp",
         "patchSetId": 2
@@ -122,6 +182,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_c0fc6040",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 703,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-07T23:37:20Z",
+      "side": 1,
+      "message": "Sure.",
+      "parentUuid": "5ff73747_60322caa",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_a0ecb4f3",
         "filename": "sensors/NativeSensorManager.cpp",
         "patchSetId": 2
@@ -133,6 +211,24 @@
       "writtenOn": "2015-07-07T21:10:40Z",
       "side": 1,
       "message": "situations :)\n\nAlso, this comment looks out of place here.",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_a0f9544e",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 790,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-07T23:37:20Z",
+      "side": 1,
+      "message": "Ok. lets just drop the comment.",
+      "parentUuid": "5ff73747_a0ecb4f3",
       "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
