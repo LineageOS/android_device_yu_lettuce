@@ -172,6 +172,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_6651240f",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-08T14:40:20Z",
+      "side": 1,
+      "message": "Agreed.\n\nThinking about it, we could\u0027ve done it that way in the first place.",
+      "parentUuid": "5ff73747_235e6ee6",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_c0efc0e7",
         "filename": "sensors/NativeSensorManager.cpp",
         "patchSetId": 2
