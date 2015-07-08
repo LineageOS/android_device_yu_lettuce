@@ -95,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_835f82e4",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 649,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-08T11:17:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ff73747_40e9707e",
+      "range": {
+        "startLine": 649,
+        "startChar": 2,
+        "endLine": 649,
+        "endChar": 7
+      },
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_802d3848",
         "filename": "sensors/NativeSensorManager.cpp",
         "patchSetId": 2
@@ -123,6 +147,24 @@
       "writtenOn": "2015-07-07T23:37:20Z",
       "side": 1,
       "message": "Ok. Are you referring to seeing the back to back events\nin the kernel log.",
+      "parentUuid": "5ff73747_802d3848",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_235e6ee6",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-08T11:17:21Z",
+      "side": 1,
+      "message": "Yea. Wondering if we should move the extra event reporting\nto the timer worker function and let it report an extra\nevent on the 1st input after a als_enable. Not saying \nwe shouldn\u0027t fix the bug here; just that it likely is more\npractical to fix it in both places.\n\nAgree?\n\n-piet",
       "parentUuid": "5ff73747_802d3848",
       "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
@@ -200,6 +242,24 @@
     },
     {
       "key": {
+        "uuid": "5ff73747_03737282",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 703,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-08T11:17:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ff73747_60322caa",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ff73747_a0ecb4f3",
         "filename": "sensors/NativeSensorManager.cpp",
         "patchSetId": 2
@@ -228,6 +288,24 @@
       "writtenOn": "2015-07-07T23:37:20Z",
       "side": 1,
       "message": "Ok. lets just drop the comment.",
+      "parentUuid": "5ff73747_a0ecb4f3",
+      "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ff73747_e36f6690",
+        "filename": "sensors/NativeSensorManager.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 790,
+      "author": {
+        "id": 13108
+      },
+      "writtenOn": "2015-07-08T11:17:21Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "5ff73747_a0ecb4f3",
       "revId": "0a29de8831603dd3e65e1b6ed522363e863787ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
