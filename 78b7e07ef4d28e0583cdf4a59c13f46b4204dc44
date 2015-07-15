@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff0f0b1f_c169f18b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-15T16:41:15Z",
+      "side": 1,
+      "message": "Reorder makefile entry for script perhaps?\n\nI kept thinking you reordered something *in* a script on seeing both of these changes.",
+      "revId": "78b7e07ef4d28e0583cdf4a59c13f46b4204dc44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
