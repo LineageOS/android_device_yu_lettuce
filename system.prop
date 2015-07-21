@@ -7,9 +7,6 @@ persist.audio.fluence.speaker=true
 # set roaming indicator to always show
 ro.config.always_show_roaming=true
 
-# Camera
-persist.camera.hal.debug.mask=268435456
-
 # Display
 ro.sf.lcd_density=320
 
