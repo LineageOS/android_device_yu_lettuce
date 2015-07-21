@@ -88,6 +88,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    fstab.qcom \
     init.lettuce.diag.rc \
     init.target.rc
 
