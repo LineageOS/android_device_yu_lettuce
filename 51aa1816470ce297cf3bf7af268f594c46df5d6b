@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df140735_2ed09b50",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-07-24T02:12:22Z",
+      "side": 1,
+      "message": "You might want the 64-bit version of this too I think.",
+      "revId": "51aa1816470ce297cf3bf7af268f594c46df5d6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
