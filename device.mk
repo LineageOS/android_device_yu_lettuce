@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/lettuce-releasekey
 
+# Thermals
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal_engine.conf:system/etc/thermal-engine.conf
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
