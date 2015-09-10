@@ -22,3 +22,6 @@ ro.telephony.default_network=9,1
 
 # relax sensor fusion mag field filter
 ro.fusion.magfield.max=250
+
+# disable all camera debug
+persist.camera.hal.debug.mask=0
