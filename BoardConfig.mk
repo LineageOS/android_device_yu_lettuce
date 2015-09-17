@@ -61,9 +61,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13042155008
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
-# Video
-TARGET_HAVE_SIGNED_VENUS_FW := true
-
 BOARD_SEPOLICY_DIRS += \
     device/yu/lettuce/sepolicy
 
