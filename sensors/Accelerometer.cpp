@@ -235,15 +235,15 @@ again:
 				break;
 				case SYN_REPORT:
 					{
-						if(mUseAbsTimeStamp != true) {
-							mPendingEvent.timestamp = timevalToNano(event->time);
-						}
-						if (mEnabled) {
+						if (mEnabled && mUseAbsTimeStamp) {
 							if(mPendingEvent.timestamp >= mEnabledTime) {
 								*data++ = mPendingEvent;
 								numEventReceived++;
 							}
 							count--;
+							mUseAbsTimeStamp = false;
+						} else {
+							ALOGE_IF(!mUseAbsTimeStamp, "AccelSensor:timestamp not received");
 						}
 					}
 				break;
