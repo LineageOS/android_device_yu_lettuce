@@ -189,7 +189,8 @@ again:
 				mPendingEvent.magnetic.z = value * res;
 			}
 		} else if (type == EV_SYN) {
-			mPendingEvent.timestamp = timevalToNano(event->time);
+			// KZTODO
+			mPendingEvent.timestamp = getTimestamp();
 			if (mEnabled) {
 				if (mPendingEvent.timestamp >= mEnabledTime) {
 					raw = mPendingEvent;

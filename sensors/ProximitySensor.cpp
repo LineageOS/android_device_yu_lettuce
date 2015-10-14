@@ -229,6 +229,7 @@ int ProximitySensor::readEvents(sensors_event_t* data, int count)
                 }
             }
         } else if (type == EV_SYN) {
+            // KZTODO
             mPendingEvent.timestamp = timevalToNano(event->time);
             if (mEnabled) {
                 *data++ = mPendingEvent;
