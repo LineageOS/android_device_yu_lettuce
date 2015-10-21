@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
     libcalmodule_akm.so \
     libcalmodule_common \
     sensors.msm8916
+# relax sensor fusion mag field filter
+PRODUCT_PROPERTY_OVERRIDES += \
+   ro.fusion.magfield.max=250
 
 # Ramdisk
 PRODUCT_PACKAGES += \
