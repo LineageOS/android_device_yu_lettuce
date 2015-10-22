@@ -16,6 +16,24 @@
       "revId": "967d80e0cdadfbb0c7e054f3680c3b5d373b68f6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f2577a7_36b6b9db",
+        "filename": "sensors/CompassSensor.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2015-10-22T02:16:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f2577a7_56270566",
+      "revId": "967d80e0cdadfbb0c7e054f3680c3b5d373b68f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
