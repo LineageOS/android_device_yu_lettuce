@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_56270566",
+        "filename": "sensors/CompassSensor.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2015-10-22T01:22:18Z",
+      "side": 1,
+      "message": "Maybe change this ALOGW to \"Calibration in Progress\"?",
+      "revId": "967d80e0cdadfbb0c7e054f3680c3b5d373b68f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
