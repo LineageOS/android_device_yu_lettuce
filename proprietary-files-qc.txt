@@ -177,7 +177,6 @@ etc/firmware/a300_pm4.fw
 
 # Media
 lib/libOmxVdecHevc.so
-vendor/lib/libDivxDrm.so
 vendor/lib/libExtendedExtractor.so
 vendor/lib/libHevcSwDecoder.so
 vendor/lib/libI420colorconvert.so
@@ -187,7 +186,6 @@ vendor/lib/libmm-color-convertor.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libSHIMDivxDrm.so
 
 # Perf
 bin/perfd
