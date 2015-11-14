@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_dbf88dc5",
+        "filename": "rootdir/etc/init.target.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 11336
+      },
+      "writtenOn": "2015-11-14T14:51:04Z",
+      "side": 0,
+      "message": "Why is this removed?",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 27
+      },
+      "revId": "6bd7580b5d087e8d61856f701b312c68f643d136",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
