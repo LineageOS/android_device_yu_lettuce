@@ -35,9 +35,6 @@ BOARD_CAMERA_SENSORS := \
 TARGET_USE_VENDOR_CAMERA_EXT := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# CMHW
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw/src
-
 # CPU
 TARGET_CPU_CORTEX_A53 := true
 
@@ -61,8 +58,12 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13042155008
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
+# SELinux
 BOARD_SEPOLICY_DIRS += \
     device/yu/lettuce/sepolicy
+
+# Tap to wake
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
