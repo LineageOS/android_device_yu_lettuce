@@ -313,7 +313,7 @@ float ProximitySensor::indexToValue(size_t index) const
     return index * PROXIMITY_THRESHOLD;
 }
 
-int ProximitySensor::calibrate(int32_t handle, struct cal_cmd_t *para,
+int ProximitySensor::calibrate(int32_t /*handle*/, struct cal_cmd_t *para,
                 struct cal_result_t *cal_result)
 {
         int fd;
@@ -406,7 +406,7 @@ int ProximitySensor::calibrate(int32_t handle, struct cal_cmd_t *para,
         return 0;
 }
 
-int ProximitySensor::initCalibrate(int32_t handle, struct cal_result_t *cal_result)
+int ProximitySensor::initCalibrate(int32_t /*handle*/, struct cal_result_t *cal_result)
 {
         int fd , i, err;
         char buf[33];
@@ -420,7 +420,7 @@ int ProximitySensor::initCalibrate(int32_t handle, struct cal_result_t *cal_resu
         fd = open(input_sysfs_path, O_RDWR);
         if (fd >= 0) {
                 int temp, para1 = 0;
-                for(i = 0; i < sizeof(arry) / sizeof(int); ++i) {
+                for(i = 0; i < (int)(sizeof(arry) / sizeof(int)); ++i) {
                         para1 = SET_CMD_H(cal_result->offset[i], arry[i]);
                         snprintf(buf, sizeof(buf), "%d",
                                         para1);
