@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf659307_deca154e",
+        "filename": "sensors/Accelerometer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2015-12-18T08:38:25Z",
+      "side": 1,
+      "message": "Can you leave the parameter name there but commented out?\ne.g. int32_t /* handle */",
+      "revId": "1ea1e7988975a134ae1e74d97832a99d951eb785",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
