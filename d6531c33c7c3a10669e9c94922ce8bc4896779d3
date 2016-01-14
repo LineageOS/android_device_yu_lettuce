@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_774c5b76",
+        "filename": "sensors/ProximitySensor.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 355,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-01-14T02:58:51Z",
+      "side": 1,
+      "message": "This should be a separate change.",
+      "revId": "d6531c33c7c3a10669e9c94922ce8bc4896779d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
