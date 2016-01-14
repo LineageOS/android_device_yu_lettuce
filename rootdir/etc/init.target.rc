@@ -25,9 +25,8 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import init.lettuce.diag.rc
-
 on boot
     # Touchscreen
     chown root system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture
     chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture
+
