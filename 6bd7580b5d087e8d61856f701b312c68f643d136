@@ -22,6 +22,30 @@
       "revId": "6bd7580b5d087e8d61856f701b312c68f643d136",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_176637ef",
+        "filename": "rootdir/etc/init.target.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2016-01-14T03:01:13Z",
+      "side": 0,
+      "message": "This removal should be a separate change if it\u0027s valid, with a description of why.",
+      "parentUuid": "1f2f7f8d_dbf88dc5",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 27
+      },
+      "revId": "6bd7580b5d087e8d61856f701b312c68f643d136",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
