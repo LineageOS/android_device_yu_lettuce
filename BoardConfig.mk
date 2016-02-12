@@ -57,7 +57,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/yu/lettuce/sepolicy
+    $(DEVICE_PATH)/sepolicy
 
 # Tap to wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
