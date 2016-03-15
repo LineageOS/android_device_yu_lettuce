@@ -20,12 +20,9 @@ DEVICE_PATH := device/yu/lettuce
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Kernel
-ifneq ($(FORCE_32_BIT),true)
 TARGET_KERNEL_CONFIG := cyanogenmod_lettuce-64_defconfig
-else
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce_defconfig
-endif
 
+# Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Camera
