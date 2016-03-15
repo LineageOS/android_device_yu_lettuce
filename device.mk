@@ -57,7 +57,6 @@ PRODUCT_PACKAGES += \
 
 # Charger
 ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.usb.id.charge=3009 \
     ro.usb.id.mtp=3003 \
     ro.usb.id.mtp_adb=3004 \
     ro.usb.id.ptp=3005 \
