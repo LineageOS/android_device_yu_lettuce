@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bfb3d3c7_48309f08",
+        "filename": "device.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-03-15T16:02:11Z",
+      "side": 1,
+      "message": "This should be under QCPATH ifdefs like crackling",
+      "revId": "f8badc2ec08cb6d6c9d91ab134954791be6b1ede",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
