@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,59 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
--include device/cyanogen/msm8916-common/BoardConfigCommon.mk
+include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/yu/lettuce
+include device/yu/lettuce/board/*.mk
 
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
-
-# Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce-64_defconfig
-
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-
-# Camera
-BOARD_CAMERA_SENSORS := \
-    ov5670_q5v41b \
-    ov8865_q8v18a
-TARGET_USE_VENDOR_CAMERA_EXT := true
-USE_DEVICE_SPECIFIC_CAMERA := true
-
-# CPU
-TARGET_CPU_CORTEX_A53 := true
-
-# GPS
-TARGET_NO_RPC := true
-USE_DEVICE_SPECIFIC_GPS := true
-
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
-# Partitions
-BOARD_FLASH_BLOCK_SIZE := 131072
-BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
-BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
-BOARD_CACHEIMAGE_PARTITION_SIZE := 67108864
-BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 33554432
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 13042155008
-
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
-# SELinux
-BOARD_SEPOLICY_DIRS += \
-    $(DEVICE_PATH)/sepolicy
-
-# Tap to wake
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
-
-# Widevine
-BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 3
-
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-# inherit from the proprietary version
+# inherit from proprietary files
 -include vendor/yu/lettuce/BoardConfigVendor.mk
