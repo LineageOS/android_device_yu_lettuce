@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_3b540f21",
+        "filename": "board/kernel.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 11690
+      },
+      "writtenOn": "2016-06-01T05:38:44Z",
+      "side": 1,
+      "message": "lettuce",
+      "range": {
+        "startLine": 2,
+        "startChar": 24,
+        "endLine": 2,
+        "endChar": 58
+      },
+      "revId": "b93395abb99926f366008f73fdb3ea34dd376206",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
