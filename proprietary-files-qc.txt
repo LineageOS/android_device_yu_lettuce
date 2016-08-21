@@ -97,6 +97,10 @@ vendor/lib/libchromatix_ov8865_q8v18a_sunny_snapshot.so
 vendor/lib/libchromatix_ov8865_q8v18a_sunny_video_hd.so
 vendor/lib/libchromatix_ov8865_q8v18a_sunny_zsl.so
 
+# Camera eeprom
+vendor/lib/libmmcamera_ov5670_eeprom.so
+vendor/lib/libmmcamera_sunny_q8v18a_t86519a1_eeprom.so
+
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw
@@ -104,10 +108,8 @@ etc/firmware/cpp_firmware_v1_2_0.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 
 # Camera sensors
-vendor/lib/libmmcamera_ov5670_eeprom.so
 vendor/lib/libmmcamera_ov5670_q5v41b.so
 vendor/lib/libmmcamera_ov8865_q8v18a.so
-vendor/lib/libmmcamera_sunny_q8v18a_t86519a1_eeprom.so
 
 # CNE/DPM
 bin/cnd
@@ -272,7 +274,7 @@ vendor/lib64/libqti-perfd-client.so
 # Postprocessing
 bin/mm-pp-daemon
 vendor/lib64/libdisp-aba.so
--vendor/lib64/libmm-abl.so
+vendor/lib64/libmm-abl.so
 vendor/lib64/libmm-abl-oem.so
 
 # Qualcomm framework
@@ -311,7 +313,6 @@ vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
 # Radio
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
@@ -322,6 +323,7 @@ etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/lib64/libconfigdb.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/liblqe.so
@@ -336,18 +338,17 @@ vendor/lib/libmdmdetect.so
 
 # Thermal
 vendor/bin/thermal-engine
-vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
+vendor/lib/libthermalclient.so
 
 # Time services
 -app/TimeService/TimeService.apk
 bin/time_daemon
 -vendor/lib64/libtime_genoff.so
--vendor/lib/libtime_genoff.so
 vendor/lib64/libTimeService.so
+-vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
 
-# WLAN
-lib/libwcnss_qmi.so
+# WiFi
 lib64/libwcnss_qmi.so
