@@ -1,0 +1,2 @@
+allow kernel priv_app_tmpfs:file write;
+allow kernel vfat:file { getattr open };
