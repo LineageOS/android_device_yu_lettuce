@@ -16,7 +16,7 @@ LOCAL_SRC_FILES := \
         QCameraThermalAdapter.cpp \
         wrapper/QualcommCamera.cpp
 
-LOCAL_CFLAGS = -Wall -Wextra -Werror
+LOCAL_CFLAGS = -Wall -Wextra -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-private-field
 
 #Debug logs are enabled
 #LOCAL_CFLAGS += -DDISABLE_DEBUG_LOG
@@ -73,6 +73,7 @@ LOCAL_SHARED_LIBRARIES += libts_face_beautify_hal libts_detected_face_hal
 endif
 LOCAL_MODULE_RELATIVE_PATH    := hw
 LOCAL_MODULE := camera.$(TARGET_BOARD_PLATFORM)
+LOCAL_CLANG := false
 LOCAL_32_BIT_ONLY := true
 LOCAL_MODULE_TAGS := optional
 

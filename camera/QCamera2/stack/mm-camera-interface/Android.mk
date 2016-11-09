@@ -4,6 +4,9 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+# Too many clang warnings/errors, see b/23163853.
+LOCAL_CLANG := false
+
 MM_CAM_FILES := \
         src/mm_camera_interface.c \
         src/mm_camera.c \
@@ -44,11 +47,12 @@ ifneq ($(call is-platform-sdk-version-at-least,17),true)
   LOCAL_CFLAGS += -include bionic/libc/kernel/common/linux/un.h
 endif
 
-LOCAL_CFLAGS += -Wall -Wextra -Werror
+LOCAL_CFLAGS += -Wall -Wextra -Werror -Wno-unused-variable -Wno-unused-parameter -Wno-unused-private-field
 
 LOCAL_SRC_FILES := $(MM_CAM_FILES)
 
 LOCAL_MODULE           := libmmcamera_interface
+LOCAL_CLANG            := false
 LOCAL_32_BIT_ONLY := true
 LOCAL_PRELINK_MODULE   := false
 LOCAL_SHARED_LIBRARIES := libdl libcutils liblog
