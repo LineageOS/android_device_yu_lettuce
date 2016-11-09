@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_13603732",
+        "filename": "gps/izat.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-09T16:44:32Z",
+      "side": 1,
+      "message": "I don\u0027t think any of the changes in this file should be reverted.",
+      "revId": "a4338f2eac8be34d5f58af1148e78a6a304c2ddc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
