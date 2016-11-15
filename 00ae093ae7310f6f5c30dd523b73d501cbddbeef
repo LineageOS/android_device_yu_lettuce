@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_d02b4f2d",
+        "filename": "sepolicy/audioserver.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11690
+      },
+      "writtenOn": "2016-11-15T09:47:27Z",
+      "side": 1,
+      "message": "This can be moved to common.",
+      "revId": "00ae093ae7310f6f5c30dd523b73d501cbddbeef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_101db70e",
+        "filename": "sepolicy/drmserver.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11690
+      },
+      "writtenOn": "2016-11-15T09:47:27Z",
+      "side": 1,
+      "message": "Same for this.",
+      "revId": "00ae093ae7310f6f5c30dd523b73d501cbddbeef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
