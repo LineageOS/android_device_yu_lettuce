@@ -27,8 +27,17 @@
 
 on boot
     # Touchscreen
-    chown root system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture
-    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/double_tap_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/camera_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/flashlight_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/music_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/message_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/email_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/custom_w_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/custom_z_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/custom_v_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/custom_s_enable
 
     # Adaptive LMK
     write /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk 1
