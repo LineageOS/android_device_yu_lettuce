@@ -1,2 +1,2 @@
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_lettuce-64_defconfig
+TARGET_KERNEL_CONFIG := lineageos_lettuce_defconfig
