@@ -1,1 +1,1 @@
-require version-baseband=1.0.1.c1-00064
+require version-baseband=1.0.1.C1-00064
