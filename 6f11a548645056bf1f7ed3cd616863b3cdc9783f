@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_57934fa3",
+        "filename": "sensors/CompassSensor.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-03-02T18:23:46Z",
+      "side": 1,
+      "message": "Delete, don\u0027t comment out",
+      "range": {
+        "startLine": 211,
+        "startChar": 34,
+        "endLine": 211,
+        "endChar": 61
+      },
+      "revId": "6f11a548645056bf1f7ed3cd616863b3cdc9783f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
