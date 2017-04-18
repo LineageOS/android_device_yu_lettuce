@@ -21,4 +21,4 @@ include device/yu/lettuce/board/*.mk
 TARGET_BOARD_INFO_FILE := device/yu/lettuce/board-info.txt
 
 # inherit from proprietary files
--include vendor/yu/lettuce/BoardConfigVendor.mk
+include vendor/yu/lettuce/BoardConfigVendor.mk
