@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_71c1a42d",
+        "filename": "camera/QCamera2/HAL/QCameraParameters.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 5156,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-06-16T14:04:14Z",
+      "side": 1,
+      "message": "I think this comment is useless, since the change is described in the commit message.",
+      "revId": "f126c920c1f5e3f28bb6f7ccde83b9adf99daaf2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
