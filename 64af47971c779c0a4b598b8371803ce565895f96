@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_f63b419a",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-07-04T11:50:44Z",
+      "side": 1,
+      "message": "Where is this used? same for the framework jar and permission",
+      "revId": "64af47971c779c0a4b598b8371803ce565895f96",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
