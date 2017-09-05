@@ -111,10 +111,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     calmodule.cfg \
     libcalmodule_common \
+    sensors.lettuce \
     sensors.msm8916
 
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/_hals.conf:system/vendor/etc/sensors/_hals.conf
 
 # Thermals
 PRODUCT_COPY_FILES += \
