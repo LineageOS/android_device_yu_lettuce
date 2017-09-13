@@ -302,4 +302,3 @@ vendor/lib/mediadrm/libwvdrmengine.so|b88c5df27094314c39ff208fdd30c9e37042c70c
 
 # WiFi
 lib64/libwcnss_qmi.so
--lib64/libwpa_qmi_eap_proxy.so|d73183e1a730aa29ed929766434da0ae668ae06d
