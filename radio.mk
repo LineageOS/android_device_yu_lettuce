@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2016 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,16 +14,20 @@
 # limitations under the License.
 #
 
-# Inherit from msm8916-common
-$(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
+LOCAL_PATH := $(call my-dir)
 
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+include $(CLEAR_VARS)
 
-# Include package config fragments
-include $(LOCAL_PATH)/product/*.mk
+#----------------------------------------------------------------------
+# Radio image
+#----------------------------------------------------------------------
+ifeq ($(ADD_RADIO_FILES), true)
+radio_dir := $(LOCAL_PATH)/radio
+RADIO_FILES := $(shell cd $(radio_dir) ; ls)
+$(foreach f, $(RADIO_FILES), \
+    $(call add-radio-file,radio/$(f)))
+endif
 
-# Call the proprietary setup
-$(call inherit-product-if-exists, vendor/volte/volte.mk)
-$(call inherit-product-if-exists, vendor/volte/lettuce/lettuce-vendor.mk)
-$(call inherit-product, vendor/yu/lettuce/lettuce-vendor.mk)
+
+# Proprietary
+$(call add-radio-file,../../../vendor/volte/lettuce/radio/NON-HLOS.bin)
