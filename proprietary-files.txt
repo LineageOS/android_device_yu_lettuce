@@ -284,7 +284,7 @@ etc/firmware/venus.mbn
 etc/firmware/venus.mdt
 
 # Thermal
-vendor/bin/thermal-engine
+vendor/bin/thermal-engine|a6d4815f965f3a79ff0afb91be7f7ab6897546f3
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 vendor/lib/libthermalclient.so
