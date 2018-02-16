@@ -1,5 +1,5 @@
 # ADSP
-bin/adsprpcd
+bin/adsprpcd:vendor/bin/adsprpcd
 vendor/lib64/libadsprpc.so
 vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
@@ -22,12 +22,12 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 
 # Bluetooth
-bin/btnvtool
-bin/hci_qcomm_init
+bin/btnvtool:vendor/bin/btnvtool
+bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 vendor/lib64/libbtnv.so
 
 # Camera
-bin/mm-qcamera-daemon
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmcamera2_c2d_module.so
@@ -102,17 +102,17 @@ vendor/lib/libmmcamera_ov5670_eeprom.so
 vendor/lib/libmmcamera_sunny_q8v18a_t86519a1_eeprom.so
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
+etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw:vendor/firmware/cpp_firmware_v1_4_0.fw
 
 # Camera sensors
 vendor/lib/libmmcamera_ov5670_q5v41b.so
 vendor/lib/libmmcamera_ov8865_q8v18a.so
 
 # DRM
-bin/qseecomd
+bin/qseecomd:vendor/bin/qseecomd
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libQSEEComAPI.so
@@ -120,8 +120,8 @@ vendor/lib64/librpmb.so
 vendor/lib64/libssd.so
 
 # GPS - from crackling
--lib64/libloc_api_v02.so|ca97a81ea91ca5c7d8dd8c9a9054121ce1446b8a
--lib64/libloc_ds_api.so|c2ed259789fe01aeced4e06ad1693036852daf7c
+-lib64/libloc_api_v02.so:vendor/lib64/libloc_api_v02.so|ca97a81ea91ca5c7d8dd8c9a9054121ce1446b8a
+-lib64/libloc_ds_api.so:vendor/lib64/libloc_ds_api.so|c2ed259789fe01aeced4e06ad1693036852daf7c
 vendor/lib64/hw/flp.default.so|03784211a3d7c144c0bc6f86b50d1cc5eb97f8c5
 vendor/lib64/libflp.so|33793c405cf39858854c8023dec4b4e0d9d79ff0
 vendor/lib64/libgeofence.so|23cb999eb444971170ff60873392706cf003ed23
@@ -185,11 +185,11 @@ vendor/lib/libsc-a3xx.so|a03fc9f0c929cb4adf013f8a463cfbef68d48090
 vendor/lib/libscale.so|972cbd87794b4ce0a5c23db946acbafd4cd6d073
 
 # Graphics firmware
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
+etc/firmware/a300_pfp.fw:vendor/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw:vendor/firmware/a300_pm4.fw
 
 # Media
-lib/libOmxVdecHevc.so
+lib/libOmxVdecHevc.so:vendor/lib/libOmxVdecHevc.so
 vendor/lib/libHevcSwDecoder.so
 vendor/lib/libmmosal.so
 vendor/lib/libOmxAacDec.so
@@ -202,15 +202,15 @@ vendor/lib64/libqti-perfd-client.so
 vendor/lib/libqti-perfd-client.so
 
 # Postprocessing
-bin/mm-pp-daemon
+bin/mm-pp-daemon:vendor/bin/mm-pp-daemon
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libmm-abl.so
 vendor/lib64/libmm-abl-oem.so
 
 # Qualcomm framework - from crackling
-bin/irsc_util|9f92211cb3f8f76195aec1081f8a58aa8d456b07
+bin/irsc_util:vendor/bin/irsc_util|9f92211cb3f8f76195aec1081f8a58aa8d456b07
 vendor/lib64/libdiag.so|0dfd85d01bd529f97b03876d90447773dad2704e
-vendor/lib64/libdsi_netctrl.so|bfbfcb7e90c99466fa76d96881fc8f62baa0a7e2
+vendor/lib64/libdsi_netctrl.so|ed28f949b542e8990d8c60262c47f01b8650f5b7
 vendor/lib64/libdsutils.so|0bea6dcf5a98c12cf673ad8107c7eef25591832f
 vendor/lib64/libidl.so|43d91e413fa07de511f3fb304b22072dbb0c911d
 vendor/lib64/libqcci_legacy.so|c0542292ba8adc3a5825d84a1143658ebf1d7646
@@ -226,7 +226,7 @@ vendor/lib64/libqmiservices.so|464aacc228a3a8250ce8541cc2cd81c78daad555
 vendor/lib64/libqmi.so|3a606bbbc3982fab9fc9a4dfebc6335eab8965cf
 vendor/lib64/libsmemlog.so|a3d41f6a599c1a359ab2ae01c29652e7e2d7a115
 vendor/lib/libdiag.so|43673eb124d36f914f90c9890d1686ac9fa7b74f
-vendor/lib/libdsi_netctrl.so|422c9826a41cf99706afb5c923ce2eddcd12a4bf
+vendor/lib/libdsi_netctrl.so|1a7a7edf832384b095641c432b2cbb202fdd611d
 vendor/lib/libdsutils.so|e63ed341bdecc8ebbc5447756303a4c6ec5609df
 vendor/lib/libidl.so|eadf4f3f7d25ec642cc457d4f6d16912682b0508
 vendor/lib/libqcci_legacy.so|db5073c8def409d9759151e399093cbf78446f97
@@ -243,16 +243,16 @@ vendor/lib/libqmi.so|b88e70492f9a8e7882650afb0dc10621b8de0b3d
 vendor/lib/libsmemlog.so|c632a70764ee1d6416ce1758f4d10cd6983d204d
 
 # Radio - from crackling
--app/shutdownlistener/shutdownlistener.apk|ae5141ba7ac7f9003ae71284da9bdd389542c6ad
-bin/netmgrd|e7206cb250f354e51920750b501dc48b106f1f20
-bin/qmuxd|c8e8ca85084e90cf41a609f9f0a6f3ad5896c186
-bin/radish|100a2d58d0f9b87a9d3698e7b5b00d264aa8b852
-bin/rmt_storage|7eb5b81e499e456e5723c0f5fcc1e6ae0b1af73e
-etc/permissions/qcnvitems.xml|dc0e70cace2317b5169a454cbc2bbf8887c18d55
-etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
--framework/qcnvitems.jar|b50c25a4760313acd6ad770bf1ee207b5376b53e
--framework/qcrilhook.jar|4ac8f925c1e76da54279867a14c32e5bc868b6df
-lib64/librilqmiservices.so|746bfe2e7a14d5502f9dd0ce7e5103e60acd1442
+-app/shutdownlistener/shutdownlistener.apk:vendor/app/shutdownlistener/shutdownlistener.apk|ae5141ba7ac7f9003ae71284da9bdd389542c6ad
+bin/netmgrd:vendor/bin/netmgrd|89181b2baf575ba7dc795ac4254a8519899064e1
+bin/qmuxd:vendor/bin/qmuxd|c8e8ca85084e90cf41a609f9f0a6f3ad5896c186
+bin/radish:vendor/bin/radish|100a2d58d0f9b87a9d3698e7b5b00d264aa8b852
+bin/rmt_storage:vendor/bin/rmt_storage|7eb5b81e499e456e5723c0f5fcc1e6ae0b1af73e
+etc/permissions/qcnvitems.xml:vendor/etc/permissions/qcnvitems.xml|dd47edbccc24a5c254dca18250c0136ecab4f0d6
+etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml|5a65b197fbc65e3e89e829d07da11904eae3e938
+-framework/qcnvitems.jar:vendor/framework/qcnvitems.jar|b50c25a4760313acd6ad770bf1ee207b5376b53e
+-framework/qcrilhook.jar:vendor/framework/qcrilhook.jar|4ac8f925c1e76da54279867a14c32e5bc868b6df
+lib64/librilqmiservices.so:vendor/lib64/librilqmiservices.so|746bfe2e7a14d5502f9dd0ce7e5103e60acd1442
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|f46412bf5ca63d6e3f647a43ef06c2f83606a481
 vendor/lib64/com.quicinc.cne.api@1.0.so|503825cc8a3c0d422e16e04b398d2c1924e518ca
 vendor/lib64/com.quicinc.cne.constants@1.0.so|a60fde6f9328635bf43bb7008dd9517e4e749e8b
@@ -275,13 +275,13 @@ vendor/lib/libmdmdetect.so|259b9a5ddbc56e42273879b36f8ec9892f2e3c08
 vendor/lib64/libcalmodule_akm.so
 
 # Signed Venus (media) firmware
-etc/firmware/venus.b00
-etc/firmware/venus.b01
-etc/firmware/venus.b02
-etc/firmware/venus.b03
-etc/firmware/venus.b04
-etc/firmware/venus.mbn
-etc/firmware/venus.mdt
+etc/firmware/venus.b00:vendor/firmware/venus.b00
+etc/firmware/venus.b01:vendor/firmware/venus.b01
+etc/firmware/venus.b02:vendor/firmware/venus.b02
+etc/firmware/venus.b03:vendor/firmware/venus.b03
+etc/firmware/venus.b04:vendor/firmware/venus.b04
+etc/firmware/venus.mbn:vendor/firmware/venus.mbn
+etc/firmware/venus.mdt:vendor/firmware/venus.mdt
 
 # Thermal
 vendor/bin/thermal-engine|a6d4815f965f3a79ff0afb91be7f7ab6897546f3
@@ -290,8 +290,8 @@ vendor/lib64/libthermalioctl.so
 vendor/lib/libthermalclient.so
 
 # Time services
--app/TimeService/TimeService.apk
-bin/time_daemon
+-app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk
+bin/time_daemon:vendor/bin/time_daemon
 -vendor/lib64/libtime_genoff.so
 vendor/lib64/libTimeService.so
 -vendor/lib/libtime_genoff.so
@@ -303,4 +303,4 @@ vendor/lib/libWVStreamControlAPI_L3.so|61673304827483d44b735a3dd08f0783d10ce92d
 vendor/lib/mediadrm/libwvdrmengine.so|b88c5df27094314c39ff208fdd30c9e37042c70c
 
 # WiFi
-lib64/libwcnss_qmi.so
+lib64/libwcnss_qmi.so:vendor/lib64/libwcnss_qmi.so
