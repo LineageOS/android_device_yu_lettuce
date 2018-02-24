@@ -272,7 +272,7 @@ vendor/lib64/libxml.so|ca5f99d9fd4e44dd5bc357d0b84272bb365cd629
 vendor/lib/libmdmdetect.so|259b9a5ddbc56e42273879b36f8ec9892f2e3c08
 
 # Sensors
-vendor/lib64/libcalmodule_akm.so
+vendor/lib64/libcalmodule_akm.so|d5294dabfff0a7192dbae3be6d02a8d5eb66b536
 
 # Signed Venus (media) firmware
 etc/firmware/venus.b00:vendor/firmware/venus.b00
