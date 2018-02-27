@@ -194,46 +194,6 @@ static int convert_magnetic(sensors_event_t *raw, sensors_event_t *result,
 	return 0;
 }
 
-static int convert_orientation(sensors_event_t *raw, sensors_event_t *result,
-		struct sensor_algo_args *args __attribute__((unused)))
-{
-	float av;
-	float pitch, roll, azimuth;
-	const float rad2deg = 180 / M_PI;
-
-	static struct sensor_vec mag, acc;
-
-	if (raw->type == SENSOR_TYPE_MAGNETIC_FIELD) {
-		mag.x = raw->magnetic.x;
-		mag.y = raw->magnetic.y;
-		mag.z = raw->magnetic.z;
-	}
-
-	if (raw->type == SENSOR_TYPE_ACCELEROMETER) {
-		acc.x = raw->acceleration.x;
-		acc.y = raw->acceleration.y;
-		acc.z = raw->acceleration.z;
-	}
-
-	av = sqrtf(acc.x*acc.x + acc.y*acc.y + acc.z*acc.z);
-	if (av >= DBL_EPSILON) {
-		pitch = asinf(-acc.y / av);
-		roll = asinf(acc.x / av);
-		result->orientation.pitch = pitch * rad2deg;
-		result->orientation.roll = roll * rad2deg;
-		azimuth = atan2(-(mag.x) * cosf(roll) + mag.z * sinf(roll),
-				mag.x*sinf(pitch)*sinf(roll) + mag.y*cosf(pitch) + mag.z*sinf(pitch)*cosf(roll));
-		result->orientation.azimuth =  azimuth * rad2deg;
-		result->orientation.status = 3;
-	}
-
-	if (raw->type != SENSOR_TYPE_MAGNETIC_FIELD)
-		return -EAGAIN;
-
-	return 0;
-
-}
-
 static int convert_rotation_vector(sensors_event_t *raw, sensors_event_t *result,
 		struct sensor_algo_args *args __attribute__((unused)))
 {
@@ -433,16 +393,6 @@ static const char* compass_match_table[] = {
 	NULL
 };
 
-static struct sensor_algo_methods_t orientation_methods = {
-	.convert = convert_orientation,
-	.config = NULL,
-};
-
-static const char* orientation_match_table[] = {
-	ORIENTATION_NAME,
-	NULL
-};
-
 static struct sensor_algo_methods_t rotation_vector_methods = {
 	.convert = convert_rotation_vector,
 	.config = NULL,
@@ -483,15 +433,6 @@ static struct sensor_cal_algo_t algo_list[] = {
 		.compatible = compass_match_table,
 		.module = &SENSOR_CAL_MODULE_INFO,
 		.methods = &compass_methods,
-	},
-
-	{
-		.tag = SENSOR_CAL_ALGO_TAG,
-		.version = SENSOR_CAL_ALGO_VERSION,
-		.type = SENSOR_TYPE_ORIENTATION,
-		.compatible = orientation_match_table,
-		.module = &SENSOR_CAL_MODULE_INFO,
-		.methods = &orientation_methods,
 	},
 
 	{
