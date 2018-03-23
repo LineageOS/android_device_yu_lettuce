@@ -51,9 +51,6 @@ BOARD_KERNEL_SEPARATED_DT := true
 LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := lineageos_lettuce_defconfig
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
 # LineageHW
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
 
