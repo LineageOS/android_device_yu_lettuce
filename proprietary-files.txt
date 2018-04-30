@@ -280,11 +280,11 @@ etc/firmware/venus.b04:vendor/firmware/venus.b04
 etc/firmware/venus.mbn:vendor/firmware/venus.mbn
 etc/firmware/venus.mdt:vendor/firmware/venus.mdt
 
-# Thermal
-vendor/bin/thermal-engine|a6d4815f965f3a79ff0afb91be7f7ab6897546f3
-vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib/libthermalclient.so
+# Thermal - from crackling
+vendor/bin/thermal-engine|f28798cb15fcf7e1c3679549eed45a050de5c032
+vendor/lib64/libthermalclient.so|d965fdb30ecc6db73a3853034b87eb9a8190481d
+vendor/lib64/libthermalioctl.so|d566833bf264923e37d7671e9fc0595618f38385
+vendor/lib/libthermalclient.so|6c9bde1d2d2896b254ea412a256215cfc9e1640d
 
 # Time services
 -app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk
