@@ -242,7 +242,7 @@ vendor/lib/libsmemlog.so|c632a70764ee1d6416ce1758f4d10cd6983d204d
 # Radio - from crackling
 -app/shutdownlistener/shutdownlistener.apk:vendor/app/shutdownlistener/shutdownlistener.apk|ae5141ba7ac7f9003ae71284da9bdd389542c6ad
 bin/netmgrd:vendor/bin/netmgrd|89181b2baf575ba7dc795ac4254a8519899064e1
-bin/qmuxd:vendor/bin/qmuxd|c8e8ca85084e90cf41a609f9f0a6f3ad5896c186
+bin/qmuxd:vendor/bin/qmuxd|6413a30c8bf1f5a4bf351bb29370a260cd991e39
 bin/radish:vendor/bin/radish|100a2d58d0f9b87a9d3698e7b5b00d264aa8b852
 bin/rmt_storage:vendor/bin/rmt_storage|7eb5b81e499e456e5723c0f5fcc1e6ae0b1af73e
 etc/permissions/qcnvitems.xml:vendor/etc/permissions/qcnvitems.xml|dd47edbccc24a5c254dca18250c0136ecab4f0d6
