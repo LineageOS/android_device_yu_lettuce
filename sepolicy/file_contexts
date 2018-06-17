@@ -2,4 +2,4 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.lettuce u:object_r:hal_light_default_exec:s0
 
 # Touchscreen
-/sys/devices/soc\.0/78b9000\.i2c/i2c-5/5-0040(/.*)? u:object_r:touchpanel_sysfs:s0
+/sys/devices/soc\.0/78b9000\.i2c/i2c-5/5-0040(/.*)?                           u:object_r:touchpanel_sysfs:s0
