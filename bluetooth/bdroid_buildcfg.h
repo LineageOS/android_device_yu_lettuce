@@ -19,7 +19,6 @@
 
 #define BTM_DEF_LOCAL_NAME        "YU5010"
 
-#define BLE_VND_INCLUDED          TRUE
 #define BLUETOOTH_QTI_SW          TRUE
 #define BT_CLEAN_TURN_ON_DISABLED TRUE
 #define MAX_ACL_CONNECTIONS       7
