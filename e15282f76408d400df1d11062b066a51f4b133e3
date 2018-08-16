@@ -46,6 +46,30 @@
       "revId": "e15282f76408d400df1d11062b066a51f4b133e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e6121599_4c47e115",
+        "filename": "lineage_lettuce.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-08-16T13:46:31Z",
+      "side": 0,
+      "message": "This is used in cyanogen/msm8916-common",
+      "parentUuid": "442dfcc0_6c448c11",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 40
+      },
+      "revId": "e15282f76408d400df1d11062b066a51f4b133e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
