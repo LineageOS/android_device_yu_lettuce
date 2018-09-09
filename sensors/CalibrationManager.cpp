@@ -33,6 +33,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <dlfcn.h>
+#include <string.h>
 
 #include <utils/Log.h>
 #include <CalibrationModule.h>
