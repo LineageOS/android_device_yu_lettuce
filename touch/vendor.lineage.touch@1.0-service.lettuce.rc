@@ -1,0 +1,30 @@
+on boot
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/up_swipe_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/up_swipe_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/down_swipe_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/down_swipe_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/left_swipe_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/left_swipe_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/right_swipe_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/right_swipe_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_c_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_c_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_e_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_e_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_m_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_m_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_o_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_o_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_s_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_s_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_v_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_v_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_w_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_w_enable
+    chown system system /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_z_enable
+    chmod 0660 /sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/letter_z_enable
+
+service vendor.touch-hal-1-0 /vendor/bin/hw/vendor.lineage.touch@1.0-service.lettuce
+    class hal
+    user system
+    group system
